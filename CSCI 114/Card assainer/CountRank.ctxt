@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=CountRank
+comment0.text=\r\n\ Loops\ through\ a\ player's\ hand\r\n\ Creates\ and\ assigns\ a\ new\ array\ to\ evaluate\ each\ card's\ value(s)\r\n\ Player's\ hand\ is\ evaluated\ and\ categorized\ by\ a\ hierarchy\r\n\ \r\n\ @return\ true\ if\ hand\ meets\ condition(s)\r\n\ \ \ \ \ \ \ \ \ else\r\n\ @return\ false\ if\ condition(s)\ are\ not\ met\r\n\r\n\ @author\ Anthony\ Segarra\r\n\ @version\ 10\ Nov\ 2022\ V.3.0\r\n
+comment1.params=h
+comment1.target=CountRank(Hand)
+comment1.text=\r\n\ Creates\ an\ array\ of\ 15\ spots;\ 0\ -\ 14\r\n\ loops\ through\ Hand\ object\ and\ assigns\ values\ to\ rankCount's\ index's;\ zero\r\n\ through\ fourteen\r\n\ \r\n\ Hand\:\:getHand()\ --\ >\ returns\ cards\ object\ from\ Hand\ class\r\n\ .size()\ --\ >\ get's\ the\ number\ of\ elements\ from\ an\ arrayList\r\n\ Card\:\:get(i)\ --\ >\ pulls\ index[i]\ from\ array\ list\ cards\r\n\ Card\:\:getRank()\ --\ >\ returns\ rank\ value\ from\ Card\ class\r\n\ \r\n\ let\ x\ \=\ hand.cards.[i].rank\r\n\ rankCount[x]\ +\=\ 1\ to\ assign\ rankCount's\ index\ values,\ increase\ by\ one\r\n\ \r\n\ if\ (statement\ \=\=\=\ true)\r\n\ make\ rankCount[1]\ >\ 4\ &&\ rankCount[1]\ <\ 10\r\n\ makes\ conditions\ true\ for\ straight,\ Aces\ low\r\n
+comment2.params=
+comment2.target=boolean\ onePair()
+comment2.text=\r\n\ loops\ through\ rankCount\ array\r\n\ if\ rankCount\ has\ a\ value\ of\ 2\r\n\ \r\n\ @return\ true\r\n\ else\r\n\ \r\n\ @return\ false\r\n
+comment3.params=
+comment3.target=boolean\ twoPair()
+comment3.text=\r\n\ loops\ through\ rankCount\ array\r\n\ each\ time\ rankCount's\ index\ has\ a\ value\ of\ two\r\n\ add\ one\ to\ your\ count\ var\r\n\ if\ rankCount\ has\ a\ value\ of\ two\ again,\ will\ add\ one\ to\ count\ again\r\n\ if\ this\ has\ happened\ twice,\ we\ know\ twoPair\ to\ be\ true\r\n\ \r\n\ @return\ true\r\n\ else\r\n\ \r\n\ @return\ false\r\n
+comment4.params=
+comment4.target=boolean\ threeOfAKind()
+comment4.text=\r\n\ loops\ through\ rank\ count's\ values\r\n\ if\ rankCount\ has\ a\ value\ of\ three\r\n\ \r\n\ @return\ true\r\n\ else\r\n\ \r\n\ @return\ false\r\n
+comment5.params=min\ max
+comment5.target=boolean\ straight(int,\ int)
+comment5.text=\r\n\ loops\ from\ min\ to\ max\ arguements,\ as\ the\ ranges;\ inclusive\r\n\ if\ rankCount\ has\ a\ value\ of\ zero\ for\ a\ card\ between\ min\ and\ max\ args\r\n\ \r\n\ @return\ false\r\n\ else\r\n\ \r\n\ @return\ true\r\n\ \r\n
+comment6.params=
+comment6.target=boolean\ fullHouse()
+comment6.text=\r\n\ if\ onePair()\ and\ threeOfAKind()\ \=\=\ true\r\n\ \r\n\ @return\ true\r\n\ else\r\n\ \r\n\ @return\ false\r\n
+comment7.params=
+comment7.target=boolean\ fourOfAKind()
+comment7.text=\r\n\ loops\ through\ rankCount's\ values\r\n\ if\ rankCount\ has\ a\ value\ of\ 4\r\n\ \r\n\ @return\ true\r\n\ else\r\n\ \r\n\ @return\ false\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ creates\ new\ StringBuilder\ called\ out\r\n\ starts\ the\ string\ as\ '{'\r\n\ i\ looping\ through\ rankCount[i]\ values\r\n\ if\ i\ is\ not\ the\ last\ index,\ append\ to\ out\r\n\ if\ i\ is\ the\ last\ index,\ append\ and\ close\ string\r\n\ \r\n\ @return\ out.toString();\r\n
+numComments=9

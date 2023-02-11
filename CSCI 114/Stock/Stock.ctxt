@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Stock
+comment0.text=\r\n\ Our\ Stock\ function,\ takes\ a\ stock\ by\ it's\ symbol\ and\ current\ price.\r\n\ Has\ the\ ability\ to\ return;\ the\ Symbol,\ current\ price,\ and\ reflect\ a\ new\ price\ when\ altered\ by\ a\ percentage\r\n\ @Anthony\ Segarra\r\n\ @10\ Sept\ 2022\r\n
+comment1.params=symb\ currentPrice
+comment1.target=Stock(java.lang.String,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getSymbol()
+comment3.params=
+comment3.target=double\ getPrice()
+comment4.params=byPercent
+comment4.target=double\ changePrice(double)
+numComments=5

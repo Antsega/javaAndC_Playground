@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Hand
+comment0.text=\r\n\ Placeholder\ for\ a\ player's\ playing\ hand\r\n\ \r\n\ \r\n\r\n\ @Anthony\ Segarra\r\n
+comment1.params=newCard
+comment1.target=void\ addCard(Card)
+comment1.text=\r\n\ appends\ newCard\ input\ to\ AL\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ @return\ AL\r\n
+numComments=3

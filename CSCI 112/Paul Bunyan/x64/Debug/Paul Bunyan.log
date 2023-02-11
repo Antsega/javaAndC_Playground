@@ -1,0 +1,3 @@
+﻿  Paul Bunyan.c
+C:\Users\antho\Documents\Coding\CSCI 112\Paul Bunyan\Paul Bunyan.c(48,12): warning C4101: 'newCountPlusPlanted': unreferenced local variable
+  Paul Bunyan.vcxproj -> C:\Users\antho\Documents\Coding\CSCI 112\Paul Bunyan\x64\Debug\Paul Bunyan.exe

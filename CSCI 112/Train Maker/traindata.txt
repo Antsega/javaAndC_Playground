@@ -1,0 +1,7 @@
+Boxcar D 44000 55 16 45
+Hopper B 23000 62 18 33
+Tanker G 15000 45 30 12
+Autocar A 30000 37 23 6
+Livestock L 56500 50 18 19
+Coalcar C 49300 53 22 100
+Flatcar F 18000 66 15 25

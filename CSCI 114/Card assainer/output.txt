@@ -1,0 +1,37 @@
+No pair
+[10?,  3?,  K?,  5?,  A?] No pair
+
+One pair
+[ Q?,  A?, 10?,  A?,  J?] One pair
+
+Two pair
+[ Q?,  3?,  A?,  A?,  3?] Two pair
+
+Three of a kind
+[ A?,  A?,  6?,  2?,  A?] Three of a kind
+
+Straight
+[ K?, 10?,  A?,  Q?,  J?] Straight
+Extra credit - aces low
+[ 4?,  3?,  5?,  2?,  A?] Straight
+
+Flush
+[ 8?,  3?,  J?,  5?,  A?] Flush
+
+Full house
+[ A?,  9?,  A?,  A?,  9?] Full House
+
+Four of a kind
+[ A?,  9?,  A?,  A?,  A?] Four of a kind
+
+Straight flush
+[ 5?,  2?,  4?,  6?,  3?] Straight flush
+Extra credit - aces low
+[ 4?,  3?,  A?,  5?,  2?] Straight flush
+
+Royal flush
+[ K?, 10?,  A?,  J?,  Q?] Royal flush
+
+Invalid hand
+[ K?,  7?,  2?, 10?,  K?] Invalid Hand, Contains Duplicates
+

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Stack
+comment0.text=\r\n\ Recreates\ the\ java.util.Stack\ class\r\n\ \r\n\ @author\ Anthony\ Segarra\r\n\ @version\ 11/13/2022\r\n
+comment1.params=
+comment1.target=Stack()
+comment2.params=number
+comment2.target=void\ push(int)
+comment3.params=
+comment3.target=int\ pop()
+comment4.params=
+comment4.target=boolean\ isEmpty()
+numComments=5

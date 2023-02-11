@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment0.text=\r\n\ This\ program\ calculates\ the\ area\ of\ a\ rectangle.\r\n\r\n\ @author\:\ Anthony\ Segarra\r\n\ @version\:\ 21\ Aug\ 2022\r\n
+comment1.params=len\ w
+comment1.target=Rectangle(double,\ double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Rectangle\r\n
+comment2.params=
+comment2.target=void\ calculateArea()
+comment2.text=method\ that\ calculates\ area\ *
+numComments=3

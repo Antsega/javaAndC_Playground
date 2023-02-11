@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\r\n\ Creation\ of\ a\ single\ playing\ card\r\n\r\n\ @author\ Anthony\ Segarra\r\n\ @version\ 10\ Nov\ 22'\ V.2.0\r\n
+comment1.params=
+comment1.target=int\ getSuit()
+comment1.text=\r\n\ @return\ suit\r\n
+comment2.params=
+comment2.target=int\ getRank()
+comment2.text=\r\n\ @return\ rank\r\n
+comment3.params=rankInput\ suitInput
+comment3.target=Card(int,\ int)
+comment3.text=\r\n\ Constructor\ Function\r\n\ sets\ rank\ and\ suit\ from\ arguements\r\n\ evalautes\ if\ they're\ within\ desired\ range\r\n\ kicks\ back\ an\ error\ if\ (\!range)\ and\ specifies\ the\ problem\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Creates\ face\ card\ value(s)\r\n\ rank\ becomes\ a\ string\ value\r\n\ rank\ evaluated\r\n\ appends\ face\ card\ and\ suit\ value\ using\ unicode\r\n\ \r\n\ @return\ single\ string\ containing\ completed\ card\r\n
+numComments=5

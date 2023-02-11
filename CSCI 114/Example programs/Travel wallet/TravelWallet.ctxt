@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TravelWallet
+comment0.text=\r\n\ Creates\ a\ travel\ wallet,\ converts\ local\ currency\ and\ calculates\ USD\ spent.\r\n\ \r\n\ @Anthony\ Segarra\r\n\ @17\ Sept\ 2022\r\n
+comment1.params=exchangeRateInput
+comment1.target=TravelWallet(double)
+comment2.params=localAmountSpent
+comment2.target=double\ spendLocal(double)
+comment3.params=dollarAmountToExchange
+comment3.target=double\ exchangeDollarsToLocal(double)
+comment4.params=
+comment4.target=double\ totalAmountInDollars()
+numComments=5

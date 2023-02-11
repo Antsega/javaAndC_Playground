@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DealHands
+comment0.text=\r\n\ Simulation\ for\ 5\ player\ card\ game\r\n\r\n\ @Anthony\ Segarra\r\n
+comment1.params=
+comment1.target=void\ main()
+comment1.text=\r\n\ Uses\ a\ deck\ of\ 52\ cards,\ and\ can\ only\ support\ up\ to\ 10\ players\r\n\ Asks\ user\ input\ for\ how\ many\ players\ \r\n\ Deals\ cards\ to\ each\ player\r\n\ Prints\ each\ player's\ hand\r\n\ Returns\ the\ remaining\ cards,\ if\ any\r\n\ \r\n\ Will\ throw\ error\ if\ exceeding\ max\ players\r\n
+numComments=2

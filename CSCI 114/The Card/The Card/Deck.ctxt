@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Deck
+comment0.text=\r\n\ Representing\ the\ creation\ a\ full\ deck\r\n\ Contains\ methods\ to\ mainipulate\ the\ deck\r\n\r\n\ @Anthony\ Segarra\r\n
+comment1.params=
+comment1.target=Deck()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Deck\r\n\ 52\ card\ deck\ in\ numerical\ and\ suited\ order\r\n\ Suit\ order\ -->\ Clubs,\ Diamonds,\ Hearts,\ and\ Spades\r\n
+comment2.params=
+comment2.target=void\ shuffle()
+comment2.text=\r\n\ \ Shuffles\ the\ deck\ in\ a\ random\ order.\r\n
+comment3.params=
+comment3.target=Card\ dealCard()
+comment3.text=\r\n\ \ Removes\ the\ card\ at\ the\ top\ of\ the\ deck\r\n\ \ \r\n\ \ @return\ the\ card\ from\ the\ top\ of\ the\ deck\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ \ Creates\ a\ row\ of\ 14\ cards\r\n\ \ If\ row\ >\ 14\ cards,\ creates\ new\ line\r\n\ \ @return\ println\r\n
+numComments=5

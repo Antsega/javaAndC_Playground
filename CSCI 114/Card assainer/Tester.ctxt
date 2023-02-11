@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Tester
+comment0.text=\r\n\ Tests\ the\ card\ game\ classes.\r\n\r\n\ @author\ Anthony\ Segarra\r\n\ @version\ 10\ Nov\ 22'\ V.2.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ main()\ method\r\n
+numComments=2

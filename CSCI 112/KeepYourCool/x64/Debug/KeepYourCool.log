@@ -1,0 +1,3 @@
+﻿  Source.c
+C:\Users\antho\Documents\Coding\CSCI 112\KeepYourCool\Source.c(46,45): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  KeepYourCool.vcxproj -> C:\Users\antho\Documents\Coding\CSCI 112\KeepYourCool\x64\Debug\KeepYourCool.exe

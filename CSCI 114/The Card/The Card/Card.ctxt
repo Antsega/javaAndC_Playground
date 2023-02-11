@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\r\n\ Representing\ the\ creation\ of\ a\ single\ playing\ card\r\n\r\n\ @Anthony\ Segarra\r\n
+comment1.params=rankInput\ suitInput
+comment1.target=Card(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Card\r\n\ \r\n\ @param\ rankIn\ to\ set\ rank\r\n\ @param\ suitIn\ to\ set\ suit\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

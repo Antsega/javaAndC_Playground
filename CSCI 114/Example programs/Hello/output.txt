@@ -1,0 +1,2 @@
+Hello, world!
+doesNothing is: 0

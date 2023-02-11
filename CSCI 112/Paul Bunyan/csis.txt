@@ -1,0 +1,64 @@
+Paul has 1000 trees and cuts at a rate of 13 percent a year here are the results
+
+year:0	 	Number of Trees Remaining: 1000
+year:1	 	Number of Trees Remaining: 870
+year:2	 	Number of Trees Remaining: 757
+year:3	 	Number of Trees Remaining: 659
+year:4	 	Number of Trees Remaining: 573
+year:5	 	Number of Trees Remaining: 498
+year:6	 	Number of Trees Remaining: 434
+year:7	 	Number of Trees Remaining: 377
+year:8	 	Number of Trees Remaining: 328
+year:9	 	Number of Trees Remaining: 286
+year:10	 	Number of Trees Remaining: 248
+year:11	 	Number of Trees Remaining: 216
+year:12	 	Number of Trees Remaining: 188
+year:13	 	Number of Trees Remaining: 164
+year:14	 	Number of Trees Remaining: 142
+year:15	 	Number of Trees Remaining: 124
+year:16	 	Number of Trees Remaining: 108
+year:17	 	Number of Trees Remaining: 94
+year:18	 	Number of Trees Remaining: 82
+year:19	 	Number of Trees Remaining: 71
+year:20	 	Number of Trees Remaining: 62
+year:21	 	Number of Trees Remaining: 54
+
+If Paul continues at this rate, his 22nd year he will have less than 50 trees
+
+Input how many trees Paul will need to plant per year to stay emplyed for 30 years and still have 50 trees
+year:0	 	Number of Trees Remaining: 1000
+year:1	 	Number of Trees Remaining: 875
+year:2	 	Number of Trees Remaining: 766
+year:3	 	Number of Trees Remaining: 672
+year:4	 	Number of Trees Remaining: 589
+year:5	 	Number of Trees Remaining: 518
+year:6	 	Number of Trees Remaining: 455
+year:7	 	Number of Trees Remaining: 401
+year:8	 	Number of Trees Remaining: 354
+year:9	 	Number of Trees Remaining: 313
+year:10	 	Number of Trees Remaining: 277
+year:11	 	Number of Trees Remaining: 246
+year:12	 	Number of Trees Remaining: 219
+year:13	 	Number of Trees Remaining: 196
+year:14	 	Number of Trees Remaining: 175
+year:15	 	Number of Trees Remaining: 158
+year:16	 	Number of Trees Remaining: 142
+year:17	 	Number of Trees Remaining: 129
+year:18	 	Number of Trees Remaining: 117
+year:19	 	Number of Trees Remaining: 107
+year:20	 	Number of Trees Remaining: 98
+year:21	 	Number of Trees Remaining: 90
+year:22	 	Number of Trees Remaining: 83
+year:23	 	Number of Trees Remaining: 78
+year:24	 	Number of Trees Remaining: 72
+year:25	 	Number of Trees Remaining: 68
+year:26	 	Number of Trees Remaining: 64
+year:27	 	Number of Trees Remaining: 61
+year:28	 	Number of Trees Remaining: 58
+year:29	 	Number of Trees Remaining: 55
+year:30	 	Number of Trees Remaining: 53
+year:31	 	Number of Trees Remaining: 51
+
+Nice work! He has work for at least 30 years!
+
+Try again to keep Paul Employed for 30 years.

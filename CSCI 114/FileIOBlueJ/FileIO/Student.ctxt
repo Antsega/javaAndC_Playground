@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ Creates\ an\ object\ for\ a\ Student\r\n\r\n\ @Anthony\ Segarra\r\n\ @18\ December\ 2022\r\n
+comment1.params=name\ age\ gpa
+comment1.target=Student(java.lang.String,\ int,\ double)
+comment1.text=\r\n\ Creates\ a\ student\ with\ a\ name,\ age\ and\ gpa\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=int\ getAge()
+comment4.params=
+comment4.target=double\ getGPA()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ @return\ formated\ student\r\n
+numComments=6

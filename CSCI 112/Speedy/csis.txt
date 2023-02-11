@@ -1,0 +1,6 @@
+Enter the speed limit: 
+Enter clocked speed: 
+How many tickets have you
+recieved in the last year? 
+You are fined: 900.00
+Your license is suspended for 6 months

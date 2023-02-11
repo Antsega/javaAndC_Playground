@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment0.text=\r\n\ This\ program\ represents\ a\ rectangle.\r\n\r\n\ @author\:\ Anthony\ Segarra\r\n\ @version\:\ 30\ Jan\ 2023\r\n
+comment1.params=len\ w
+comment1.target=Rectangle(double,\ double)
+comment2.params=
+comment2.target=void\ calculateArea()
+numComments=3

@@ -1,0 +1,26 @@
+            Wager             Won            Loss           Stash
+            -----            -----           -----          -----
+Starting Stash                                            2000.00
+Won!                         500.00                       2500.00 
+Lost!                                       1500.00       1000.00 
+Lost!                                        500.00        500.00 
+Won!                         100.00                        600.00 
+Won!                         600.00                       1200.00 
+Lost!                                        300.00        900.00 
+Won!                          50.00                        950.00 
+Won!                          50.00                       1000.00 
+Lost!                                         25.00        975.00 
+Lost!                                        500.00        475.00 
+Lost!                                        100.00        375.00 
+
+
+
+Total number Wins: 5
+Total amount Won: 1300.00
+Total number Losses: 6
+Total amount Lost: 2925.00
+
+
+Starting Stash: 2000.00
+Total payoff charge: 276.25
+Closing Stash:  98.75

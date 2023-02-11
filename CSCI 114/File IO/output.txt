@@ -1,0 +1,17 @@
+A List Of All Students
+Students[ Student[name = Name0, age = 22 gpa = 1.2], Student[name = Name1, age = 22 gpa = 2.71], Student[name = Name2, age = 19 gpa = 3.51], Student[name = Name3, age = 18 gpa = 3.91], Student[name = Name4, age = 20 gpa = 1.6], Student[name = Name5, age = 19 gpa = 1.03], Student[name = Name6, age = 18 gpa = 3.78], Student[name = Name7, age = 19 gpa = 3.19], Student[name = Name8, age = 18 gpa = 2.37], Student[name = Name9, age = 21 gpa = 1.01], Student[name = Name9, age = 21 gpa = 1.01]]
+
+The Student With The Best GPA
+Student[name = Name3, age = 18 gpa = 3.91]
+
+The average GPA is: 2.43
+
+Number of Students With Above Average GPA: 5
+Number of Students With Below Average GPA: 5
+
+List of above average students
+Student[name = Name1, age = 22 gpa = 2.71], Student[name = Name2, age = 19 gpa = 3.51], Student[name = Name3, age = 18 gpa = 3.91], Student[name = Name6, age = 18 gpa = 3.78], Student[name = Name7, age = 19 gpa = 3.19], 
+
+Youngest Student with a below average GPA: Student[name = Name8, age = 18 gpa = 2.37]
+
+Average age of the students with below average GPA : 20.0 years old

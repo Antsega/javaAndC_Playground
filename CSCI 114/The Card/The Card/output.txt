@@ -1,0 +1,24 @@
+A brand new, fresh deck,
+rank 2, suit 0 is "_2?" rank 3, suit 0 is "_3?" rank 4, suit 0 is "_4?" rank 5, suit 0 is "_5?" rank 6, suit 0 is "_6?" rank 7, suit 0 is "_7?" rank 8, suit 0 is "_8?" rank 9, suit 0 is "_9?" rank 10 suit 0 is "10?" rank 11 suit 0 is "_J?" rank 12 suit 0 is "_Q?" rank 13 suit 0 is "_K?" rank 14 suit 0 is "_A?" 
+rank 2, suit 1 is "_2?" rank 3, suit 1 is "_3?" rank 4, suit 1 is "_4?" rank 5, suit 1 is "_5?" rank 6, suit 1 is "_6?" rank 7, suit 1 is "_7?" rank 8, suit 1 is "_8?" rank 9, suit 1 is "_9?" rank 10 suit 1 is "10?" rank 11 suit 1 is "_J?" rank 12 suit 1 is "_Q?" rank 13 suit 1 is "_K?" rank 14 suit 1 is "_A?" 
+rank 2, suit 2 is "_2?" rank 3, suit 2 is "_3?" rank 4, suit 2 is "_4?" rank 5, suit 2 is "_5?" rank 6, suit 2 is "_6?" rank 7, suit 2 is "_7?" rank 8, suit 2 is "_8?" rank 9, suit 2 is "_9?" rank 10 suit 2 is "10?" rank 11 suit 2 is "_J?" rank 12 suit 2 is "_Q?" rank 13 suit 2 is "_K?" rank 14 suit 2 is "_A?" 
+rank 2, suit 3 is "_2?" rank 3, suit 3 is "_3?" rank 4, suit 3 is "_4?" rank 5, suit 3 is "_5?" rank 6, suit 3 is "_6?" rank 7, suit 3 is "_7?" rank 8, suit 3 is "_8?" rank 9, suit 3 is "_9?" rank 10 suit 3 is "10?" rank 11 suit 3 is "_J?" rank 12 suit 3 is "_Q?" rank 13 suit 3 is "_K?" rank 14 suit 3 is "_A?" 
+
+
+Shuffled
+rank 11 suit 3 is "_J?" rank 9, suit 2 is "_9?" rank 3, suit 2 is "_3?" rank 12 suit 2 is "_Q?" rank 6, suit 0 is "_6?" rank 5, suit 2 is "_5?" rank 14 suit 2 is "_A?" rank 13 suit 2 is "_K?" rank 7, suit 2 is "_7?" rank 4, suit 0 is "_4?" rank 13 suit 0 is "_K?" rank 2, suit 3 is "_2?" rank 10 suit 0 is "10?" 
+rank 5, suit 3 is "_5?" rank 6, suit 3 is "_6?" rank 3, suit 3 is "_3?" rank 6, suit 1 is "_6?" rank 7, suit 1 is "_7?" rank 8, suit 1 is "_8?" rank 4, suit 1 is "_4?" rank 10 suit 3 is "10?" rank 9, suit 0 is "_9?" rank 9, suit 3 is "_9?" rank 11 suit 0 is "_J?" rank 7, suit 0 is "_7?" rank 2, suit 2 is "_2?" 
+rank 9, suit 1 is "_9?" rank 5, suit 1 is "_5?" rank 10 suit 1 is "10?" rank 11 suit 1 is "_J?" rank 14 suit 1 is "_A?" rank 10 suit 2 is "10?" rank 12 suit 0 is "_Q?" rank 14 suit 0 is "_A?" rank 3, suit 0 is "_3?" rank 4, suit 2 is "_4?" rank 2, suit 1 is "_2?" rank 5, suit 0 is "_5?" rank 8, suit 0 is "_8?" 
+rank 3, suit 1 is "_3?" rank 8, suit 3 is "_8?" rank 4, suit 3 is "_4?" rank 14 suit 3 is "_A?" rank 13 suit 3 is "_K?" rank 11 suit 2 is "_J?" rank 13 suit 1 is "_K?" rank 6, suit 2 is "_6?" rank 12 suit 1 is "_Q?" rank 2, suit 0 is "_2?" rank 12 suit 3 is "_Q?" rank 8, suit 2 is "_8?" rank 7, suit 3 is "_7?" 
+
+How many players? 3
+Print each hand
+
+[rank 11 suit 3 is "_J?", rank 9, suit 2 is "_9?", rank 3, suit 2 is "_3?", rank 12 suit 2 is "_Q?", rank 6, suit 0 is "_6?"]
+[rank 5, suit 2 is "_5?", rank 14 suit 2 is "_A?", rank 13 suit 2 is "_K?", rank 7, suit 2 is "_7?", rank 4, suit 0 is "_4?"]
+[rank 13 suit 0 is "_K?", rank 2, suit 3 is "_2?", rank 10 suit 0 is "10?", rank 5, suit 3 is "_5?", rank 6, suit 3 is "_6?"]
+
+What remains
+rank 3, suit 3 is "_3?" rank 6, suit 1 is "_6?" rank 7, suit 1 is "_7?" rank 8, suit 1 is "_8?" rank 4, suit 1 is "_4?" rank 10 suit 3 is "10?" rank 9, suit 0 is "_9?" rank 9, suit 3 is "_9?" rank 11 suit 0 is "_J?" rank 7, suit 0 is "_7?" rank 2, suit 2 is "_2?" rank 9, suit 1 is "_9?" rank 5, suit 1 is "_5?" 
+rank 10 suit 1 is "10?" rank 11 suit 1 is "_J?" rank 14 suit 1 is "_A?" rank 10 suit 2 is "10?" rank 12 suit 0 is "_Q?" rank 14 suit 0 is "_A?" rank 3, suit 0 is "_3?" rank 4, suit 2 is "_4?" rank 2, suit 1 is "_2?" rank 5, suit 0 is "_5?" rank 8, suit 0 is "_8?" rank 3, suit 1 is "_3?" rank 8, suit 3 is "_8?" 
+rank 4, suit 3 is "_4?" rank 14 suit 3 is "_A?" rank 13 suit 3 is "_K?" rank 11 suit 2 is "_J?" rank 13 suit 1 is "_K?" rank 6, suit 2 is "_6?" rank 12 suit 1 is "_Q?" rank 2, suit 0 is "_2?" rank 12 suit 3 is "_Q?" rank 8, suit 2 is "_8?" rank 7, suit 3 is "_7?" 
