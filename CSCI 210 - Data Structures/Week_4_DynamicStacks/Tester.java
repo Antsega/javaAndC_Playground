@@ -11,6 +11,11 @@
 */
 
 
+/*
+ * Uncomment associated test cases to test program correctly
+ * e.g lines 22 through 31. Choose associated String's with
+ *  lines 115 through 121 result String
+ */
 public class Tester {
     public static void main(String args[]) {
 
