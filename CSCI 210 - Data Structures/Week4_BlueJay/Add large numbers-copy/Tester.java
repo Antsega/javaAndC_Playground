@@ -7,12 +7,12 @@ public class Tester {
                 // String second = "999";
         
                 //second test
-                // String first = "89";
-                // String second = "9876";
+                String first = "89";
+                String second = "9876";
         
                 //third test
-                String first = "2147483647";
-                String second = "2147483647";
+                //String first = "2147483647";
+                //String second = "2147483647";
         
                 //the 3 StackInterfaces here are required
                 StackInterface<Integer> firstStack = new LinkedStack<Integer>();
@@ -37,6 +37,7 @@ public class Tester {
                     secondStack.push(x);
                     secondStackLength++;    
                 }
+
 int tenths = 0;
 int resultStackLength = 0;
 
@@ -87,6 +88,7 @@ int resultStackLength = 0;
 //                         }                        
 //                     }
 //                 }
+
 //                 resultStack.push(tenths);
 //                 resultStackLength++;
 //                 String resultsString = "";
@@ -97,97 +99,46 @@ int resultStackLength = 0;
                 
 //                 // 1st Test Case
 //                 System.out.println("99999 + 999 = " + resultsString);
-// // end of Case 1
 
-// // Case 2
-// // if second stack string is longer
-// if (secondStackLength > firstStackLength) {
-//                     // iterating through firstStack
-//                     for (int i = 0; i < secondStackLength; i++) {
-//                             // grabbing the top of first stack
-//                         int secondStackNumber = secondStack.pop();
-                        
-//                             // checking if secondStack is empty
-//                             if (firstStack.isEmpty()) {
-//                             // 0 is placeholder for nothing
-//                                 int firstStackNumber = 0;
-//                             // combining results and adding tenth value
-//                                 int results = (firstStackNumber + secondStackNumber) + tenths;
+// Case 2
+// if second stack string is longer
+if (secondStackLength > firstStackLength) {
+    int caseTwoTenths = 0;
 
-//                                 if (results > 9) {
-//                             // pushing remainder of results / 10
-//                             resultStack.push(results % 10);
-//                             tenths = 1;
-//                             resultStackLength++;
-//                                 }
-
-//                         // else push 0
-//                         // if results >= 10 reassign tenths = 1
-//                         // otherwise tenths = 0
-//                                 else {      
-//                                 resultStack.push((results % 10));
-//                                 if (results >= 10) tenths = 1;
-//                                 else tenths = 0; 
-//                                 resultStackLength++;
-//                                 }
-//                         // loop finished but leftover tenth value
-//                     }
-//                         else {
-//                             int firstStackNumber = firstStack.pop();
-//                             int results = (firstStackNumber + secondStackNumber) + tenths;
-//                             if (results > 9) {
-//                                 resultStack.push(results % 10);
-//                                 tenths = 1;
-//                                 resultStackLength++;
-//                             }
-//                         }                        
-//                     }
-//                 }
-//                 String resultsString = "";
-//                 for (int i = 0; i < resultStackLength; i++) {
-//                 int x = resultStack.pop();
-//                     resultsString += String.valueOf(x);
-//                 }
-                
-//                 // 2ND Test Case
-//                 System.out.println("89 + 9876 = " + resultsString);
-// // end of 2nd Case
-
-// Test Case 3
-// if Strings are of the same length
-if (firstStackLength == secondStackLength) {
-    // iterating through firstStack
-    tenths = 0;
-        for (int i = 0; i < secondStackLength; i++) {
-        // grabbing the top of first stack
-        int secondStackNumber = secondStack.pop();
-        int firstStackNumber = firstStack.pop();
-
-        int results = (firstStackNumber + secondStackNumber) + tenths;
-
-        if (results > 9) {
-            resultStack.push(results % 10);
-            tenths = 1;
-            resultStackLength++;
-        }
-        else {
-                    resultStack.push(results);
-                    tenths = 0;
-                    resultStackLength++;
-                }
-        
-
+    // fills smaller stack with 0's as placeholders unitl same length
+    do {
+        firstStack.push(0);
+        firstStackLength++;
     }
-}
-String resultsString = "";
+    while (firstStackLength < secondStackLength);
+
+    // iterate through secondStack
+    for (int i = 0; i < secondStackLength; i++) {
+    int topOfFirstStack = firstStack.pop();
+    int topOfSecondStack = secondStack.pop();
+    int results = (topOfSecondStack + topOfFirstStack + caseTwoTenths);
+
+    while (!secondStack.isEmpty()) {
+        resultStack.push(results);
+        // if the beginning or end of loop, tenth is 0; else 1
+        if (i == 0 || i == secondStackLength ) caseTwoTenths = 0;
+        else caseTwoTenths = 1;
+        resultStackLength++;
+    }
+    }
+
+    resultStack.push(caseTwoTenths);
+    resultStackLength++;
+    String resultsString = "";
     for (int i = 0; i < resultStackLength; i++) {
-        int x = resultStack.pop();
+    int x = resultStack.pop();
         resultsString += String.valueOf(x);
     }
-                
-                // 3rd Test Case
-                System.out.println("2,147,483,647 + 2,147,483,647 = " + resultsString);
-// end of 3rd Case
+    
+    // 1st Test Case
+    System.out.println("Test");
+    System.out.println("99999 + 999 = " + resultsString);
 }
+                // end of main }
             }
-        
+        }

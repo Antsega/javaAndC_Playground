@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=StackUnderflowException
+comment1.params=
+comment1.target=StackUnderflowException()
+comment2.params=message
+comment2.target=StackUnderflowException(java.lang.String)
+numComments=3
