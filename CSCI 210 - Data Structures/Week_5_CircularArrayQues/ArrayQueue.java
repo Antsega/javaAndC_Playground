@@ -1,3 +1,6 @@
+/*
+ * Creates a circular array to handle Queue processing
+ */
 public class ArrayQueue<T> implements QueueInterface<T>
 {
     public static final int MAX = 10;
@@ -8,41 +11,39 @@ public class ArrayQueue<T> implements QueueInterface<T>
     private int front;
     private int rear;
 
+    /*
+     * Creates an array with a length of MAX
+     * positions front and rear
+     */
     public ArrayQueue()
     {
-        //awkward syntax!
         elements = (T[]) new Object[MAX];
-        /* the usual initialisations
-        front = MAX - 1;
-        rear = MAX - 1;
-        */
         //tweaked here to deliberately force early wrapping!
         front = MAX - 3;
         rear = MAX - 3;
     }
     
-    //implement your methods with Javadoc comments here
-    //again, you are NOT ALLOWED to add more instance variables
 
     /*
-     * if front and rear point to the same element
+     * checks if front and rear point to the same element BEFORE wrapping, 
      */
     public Boolean isEmpty() {
         return front == rear;
     }
 
     /*
-     * The que is full if the rear and front point to the same location AFTER wrapping has occured
+     * Checks if rear and front point to the same location AFTER wrapping
+     * @returns true || false
      */
     public Boolean isFull() {
         return ((rear + 1) % MAX) == front;
     }
 
     /*
-     * if full, throws Overflow exception
+     * Checks if array is full before process
      * else
      * increments rear, wraps to front if neccesary
-     * adds the item to the que
+     * adds the item to the queue
      */
     public void insert(T num) throws QueueOverflowException {
         if (isFull()) {
@@ -54,7 +55,7 @@ public class ArrayQueue<T> implements QueueInterface<T>
         }
 }
     /*
-     * if empty, throws Underflow exception
+     * Checks if Queue is empty,
      * else
      * grabs first item in que
      * increments pointer, wraps to front if neccesary

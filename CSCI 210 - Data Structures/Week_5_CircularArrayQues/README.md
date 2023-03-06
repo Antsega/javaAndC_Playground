@@ -12,4 +12,4 @@ HOW TO START THIS PROJECT:  Run main void()<br>
 AUTHORS:    Anthony Segarra<br>
 USER INSTRUCTIONS:  Test cases provided in main method.<br>
 
-![](/Asssignment.png)
+![ScreenShot](/Asssignment.png)
