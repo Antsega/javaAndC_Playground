@@ -1,3 +1,10 @@
+/*
+ * Tests the ArrayQueue Class
+ * 
+ * @author Anthony Segarra
+ * @version 3/5/2023
+ */
+
 public class Tester
 {
     public static void main(String[] args)

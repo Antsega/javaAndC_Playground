@@ -3,6 +3,7 @@
  */
 public class ArrayQueue<T> implements QueueInterface<T>
 {
+    // array size
     public static final int MAX = 10;
 
     //use only these 3 instance variables!
@@ -12,8 +13,8 @@ public class ArrayQueue<T> implements QueueInterface<T>
     private int rear;
 
     /*
-     * Creates an array with a length of MAX
-     * positions front and rear
+     * Constructs an array with the size of max
+     * positions front and rear 
      */
     public ArrayQueue()
     {
@@ -25,22 +26,24 @@ public class ArrayQueue<T> implements QueueInterface<T>
     
 
     /*
-     * checks if front and rear point to the same element BEFORE wrapping, 
+     * @return true if front and rear point to the same value;
+     * false otherwise
      */
     public Boolean isEmpty() {
         return front == rear;
     }
 
     /*
-     * Checks if rear and front point to the same location AFTER wrapping
-     * @returns true || false
+     * @returns true if rear and front point to the same location AFTER rear wrapping; 
+     * false otherwise
      */
     public Boolean isFull() {
         return ((rear + 1) % MAX) == front;
     }
 
     /*
-     * Checks if array is full before process
+     * If array is already full, 
+     * @return OverflowException;
      * else
      * increments rear, wraps to front if neccesary
      * adds the item to the queue
@@ -55,11 +58,12 @@ public class ArrayQueue<T> implements QueueInterface<T>
         }
 }
     /*
-     * Checks if Queue is empty,
+     * If Queue is already Empty,
+     * @return UnderflowException;
      * else
-     * grabs first item in que
-     * increments pointer, wraps to front if neccesary
-     * return the item that was removed
+     * grabs T item in front of Queue
+     * increments front pointer, wraps to front if neccesary
+     * @return the item that was removed
      */
     public T remove() throws QueueUnderflowException {
         if (isEmpty()) {
@@ -70,6 +74,4 @@ public class ArrayQueue<T> implements QueueInterface<T>
         front = (front + 1) % MAX;
         return removedElement;
     }
-
-
 }
