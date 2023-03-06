@@ -1,6 +1,6 @@
 public class Tester
 {
-    public static void main()
+    public static void main(String[] args)
     {
         QueueInterface<Character> q = new ArrayQueue<Character>();
 

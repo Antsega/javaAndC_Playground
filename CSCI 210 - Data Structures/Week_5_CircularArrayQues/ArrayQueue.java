@@ -24,10 +24,51 @@ public class ArrayQueue<T> implements QueueInterface<T>
     //implement your methods with Javadoc comments here
     //again, you are NOT ALLOWED to add more instance variables
 
-    //insert()
+    /*
+     * if front and rear point to the same element
+     */
+    public Boolean isEmpty() {
+        return front == rear;
+    }
 
-    //remove()
+    /*
+     * The que is full if the rear and front point to the same location AFTER wrapping has occured
+     */
+    public Boolean isFull() {
+        return ((rear + 1) % MAX) == front;
+    }
 
-    // isEmpty()
-    
+    /*
+     * if full, throws Overflow exception
+     * else
+     * increments rear, wraps to front if neccesary
+     * adds the item to the que
+     */
+    public void insert(T num) throws QueueOverflowException {
+        if (isFull()) {
+            throw new QueueOverflowException("Cannot insert element into full queue.");
+        }
+        else {
+            rear = (rear + 1) % MAX;
+            elements[rear] = num;
+        }
+}
+    /*
+     * if empty, throws Underflow exception
+     * else
+     * grabs first item in que
+     * increments pointer, wraps to front if neccesary
+     * return the item that was removed
+     */
+    public T remove() throws QueueUnderflowException {
+        if (isEmpty()) {
+            throw new QueueUnderflowException("Queue is Empty");
+        }
+        T removedElement = elements[front];
+        elements[front] = null;
+        front = (front + 1) % MAX;
+        return removedElement;
+    }
+
+
 }
