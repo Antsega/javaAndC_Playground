@@ -11,3 +11,5 @@ VERSION or DATE:    5 March 2023
 HOW TO START THIS PROJECT:  Run main void()
 AUTHORS:    Anthony Segarra
 USER INSTRUCTIONS:  Test cases provided in main method.
+
+![Alt text](/Asssignment.png "Overall Assignment")
